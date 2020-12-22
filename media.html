@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+<style>
+    @media (orientation: landscape){
+        .one{
+            display: block;
+            width: 100%;
+        }
+        .two{display: none;}
+    }
+    @media(orientation: portrait){
+        .one{
+            display: none;
+        }
+        .two{
+            display: block;
+            width: 50%;
+        }
+    }
+</style>
+</head>
+<body>
+    <h1>PNC</h1>
+    <div class="one"><img src="banana.png" alt=""></div>
+    <div class="two"><img src="coconut.jpg" alt=""></div>
+    
+   
+</body>
+</html>

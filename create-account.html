@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE ACCOUNT</title>
+    <style>
+        form{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-family: sans-serif;
+        }
+        div{
+            width: 500px;
+        }
+        h2{
+            text-transform: uppercase;
+            text-align: center;
+            color: teal;
+        }
+        input[type="text"],
+        input[type="password"]{
+            width: 47.7%;
+            font-size: 20px;
+        }
+        input[type="email"]{
+            width: 100%;
+            font-size: 20px;
+        }
+        input[type="date"]{
+            width: 100%;
+            font-size: 20px;
+            padding: 10px;
+        }
+        label{
+            font-size: 20px;
+        }
+        input[type="file"]{
+            font-size: 20px;
+            border: 0.5px solid black;
+            width: 100%;
+            padding: 10px
+        }
+        select{
+            width: 100%;
+            font-size: 20px;
+            padding: 10px;
+        }
+        input[type="submit"]{
+            width: 100%;
+            font-size: 20px;
+            padding: 5px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            background-color:teal;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="loginaccount.html">
+        <div>
+            <h2>create account</h2>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name"><br><br>
+            <input type="email" placeholder="Email"><br><br>
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm Password"><br><br>
+            <label for="">Gender : </label>
+            <input type="radio" id="male"><label for="male">Male</label>
+            <input type="radio" id="female"><label for="female">Female</label>
+            <input type="radio" id="other"><label for="other">Other</label><br><br>
+            <input type="date"><br><br>
+            <label for="">Subject: </label>
+            <input type="checkbox" id="html"><label for="html">HTML</label>
+            <input type="checkbox" id="css"><label for="css">CSS</label>
+            <input type="checkbox" id="algorithm"><label for="algorithm">algorithm</label>
+            <input type="checkbox" id="english"><label for="english">English</label><br><br>
+            <input type="file"><br><br>
+            <select name="food" id="">
+                <option value="one">Choose your favorite fruits</option>
+                <option value="two">KFC</option>
+                <option value="three">Food Panda</option>
+                <option value="four">Khmer food</option>
+            </select><br><br>
+            <input type="submit" value="register now">
+        </div>
+    </form>
+</body>
+</html>
